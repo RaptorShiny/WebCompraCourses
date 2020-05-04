@@ -1,0 +1,81 @@
+
+/* LISTA DE COMPRA*/
+
+.listContainer{
+    background-color: rgb(0, 42, 61);
+    width: 100%;
+    height: auto;
+    position: absolute;
+    padding-top: 1em;
+}
+
+
+.containermain{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+.mostrador{
+    width: 100%;
+    margin: auto;
+    height: 12vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding: 1em 1em;
+}
+
+.mostrador .cantidadShow{
+    color: white;
+    font-family: Impact;
+    font-size: 2em;
+    padding: 5px 0 2px;
+    text-align: center;
+}
+
+.LogoCarrito{
+    flex-grow: 1;
+    background-image: url("https://image.flaticon.com/icons/svg/1799/1799314.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 10vw;
+    flex: auto;
+    min-width: 6vh;
+    min-height: 4vh;
+    margin: auto;
+    margin: 0.2em;
+}
+
+.DineroPagar{
+    flex-grow: 2;
+    background-color: rgb(0, 42, 61);
+    min-width: 10vh;
+    min-height: 7vh;
+    flex: auto;
+    margin: auto;
+    margin: 0.4em;
+}
+
+.mostrador .btn-danger{
+    
+    max-height: 10vh;
+    max-width: 2vw;
+    min-width: 30vw;
+    flex-grow: 2;
+    flex: auto;
+    width: 60%;
+    height: 100%;
+}
+
+
+
+/* Lista de Items*/
+
+.mostradorListaItems{
+    margin: auto;
+    background-color: rgb(204, 204, 204);
+    width: 100%;
+    height: auto;
+}

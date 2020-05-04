@@ -1,0 +1,15 @@
+
+main{
+    width: 90%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    position: relative;
+    display: block;
+}
+
+main h1{
+    text-align: center;
+    text-decoration: solid;
+    font-size: 1.9em;
+}
