@@ -12,7 +12,7 @@ class UI{
         Box.innerHTML=`<div class="card name="card_coursechoosen">
         <h5 class="card-header">${Venta.namecourse} <button type="button" class="btn btn-warning" name="deleteproduct" value="${Venta.price}">Eliminar</button> </h5>
         <div class="card-body">
-          <h5 class="card-title">Descripcion</h5>
+          <h5 class="card-title">Descripción</h5>
           <p class="card-text">Precio del Curso: <strong> $${Venta.price}<strong></p>
         </div>
       </div>`;
